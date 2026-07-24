@@ -1,0 +1,49 @@
+# --- Node / Frontend (Vite) Dependencies ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# --- Python / Backend Dependencies ---
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+
+# --- Environment & Security Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.keystore
+
+# --- Android Studio / Capacitor Builds ---
+# Note: Keep android/ folder, but ignore local IDE configurations
+.gradle/
+build/
+captmp/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captmp/
+
+# --- Operating System Artifacts ---
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+.idea
