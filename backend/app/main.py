@@ -9,7 +9,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI(
     title="Personal Expense Tracking System (PETS) API",
     description="AI-Powered Full-Stack Personal Finance Management REST API with ML Auto-categorization, Forecasting, & Anomaly Detection",
-    version="1.0.0"
+    version="1.1.0"
 )
 
 # Enable CORS for React Frontend
@@ -33,7 +33,7 @@ def read_root():
     return {
         "system": "Personal Expense Tracking System (PETS)",
         "status": "Online",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "docs": "/docs"
     }
 

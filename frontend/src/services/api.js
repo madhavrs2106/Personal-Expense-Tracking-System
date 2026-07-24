@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://personal-expense-tracking-system-s630.onrender.com',
+  baseURL: 'https://personal-expense-tracking-system-s630.onrender.com/api',
 });
 
 // Inject JWT token into headers if available

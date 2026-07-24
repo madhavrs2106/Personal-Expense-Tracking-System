@@ -34,7 +34,7 @@ export default function Navbar() {
           />
           <div>
             <h2 className="brand-font" style={{ fontSize: '20px', fontWeight: '800', lineHeight: '1', color: 'var(--text-main)' }}>PETS</h2>
-            <span style={{ fontSize: '10px', color: 'var(--text-muted)', letterSpacing: '1px', textTransform: 'uppercase' }}>Personal Expense Tracker</span>
+            <span style={{ fontSize: '10px', color: 'var(--text-muted)', letterSpacing: '1px', textTransform: 'uppercase' }}>AI Expense Tracker</span>
           </div>
         </div>
 
